@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper-min.png");
     background-size: 280px 280px;
 }
 
@@ -284,7 +284,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 4em;
+    color: #fff!important;
 }
 
 .navbar {
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -660,6 +661,10 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+
+}
+#bloc-1-hero h2{
+    color: #fff!important;
 }
 
 .hero-bloc-text-sub {
@@ -677,7 +682,15 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
+    
+}
+.keywords{
+    margin: 1.5em 0 2em;
+    width: 100%;
+    color: #fff!important;
+    text-align: center;
+}
 }
 
 .tight-width-whitespace {
@@ -707,6 +720,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+   
 }
 
 h3 {
@@ -741,6 +755,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -771,11 +786,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #303030;
+}
+.z-over{
+    z-index: 5;
+    font-size: 3em;
+    position: relative;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
@@ -821,9 +841,7 @@ h4 {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
-.bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
-}
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -847,11 +865,18 @@ h4 {
         max-width: 100%
     }
 }
+.z-over{
+    font-size: 1.8em;
+    margin: 0 25px;
 
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+}
+.bg-presentation {
+    background-image: url("img/image-de-presentation-ConvertImage.jpg");
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -984,9 +1009,9 @@ h4 {
     }
     .bloc-sm,
     .bloc-md {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 50px;
     }
+
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
