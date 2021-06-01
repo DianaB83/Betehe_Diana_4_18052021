@@ -685,16 +685,23 @@ p {
     font-size: 1em;
     
 }
+.text-center1{
+    font-weight: 600;
+    text-align: center;
+}
 .keywords{
     margin: 1.5em 0 2em;
     width: 100%;
     color: #fff!important;
     text-align: center;
 }
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
 
 
-.tight-width-whitespace {
-    max-width: 600px;
+.tight-width-whitespace { 
     margin: auto auto auto auto;
 }
 
@@ -750,7 +757,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #d4d4d4!important;
+    font-size: 1.2em;
 }
 
 .portfolio-thumb {
@@ -768,7 +776,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(39,38,36,.692);
     padding: 40px 40px 40px 40px;
 }
 
