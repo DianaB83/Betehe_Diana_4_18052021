@@ -686,8 +686,10 @@ p {
     
 }
 .text-center1{
-    font-weight: 600;
+
     text-align: center;
+    font-weight: bolder;
+    
 }
 .keywords{
     margin: 1.5em 0 2em;
@@ -695,10 +697,6 @@ p {
     color: #fff!important;
     text-align: center;
 }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 
 
 .tight-width-whitespace { 
@@ -884,7 +882,7 @@ h4 {
     }
 }
 .bg-presentation {
-    background-image: url("img/image-de-presentation-ConvertImage.jpg");
+    background-image: url("img/image-de-presentation-min.jpg");
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
