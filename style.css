@@ -8,13 +8,13 @@ body {
 }
 
 a,
-button {
+button:focus {
     transition: all .3s ease-in-out;
     outline: none!important;
 
 }
 
-a:hover {
+a:hover:focus {
     text-decoration: none;
     cursor: pointer;
 }
@@ -100,7 +100,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc:focus {
+.d-bloc:focus-visible {
     color: rgba(255, 255, 255, .7);
 }
 
@@ -303,7 +303,7 @@ a:hover {
     line-height: 44px;
 }
 
-.navbar-brand img:focus {
+.navbar-brand img{
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
@@ -317,7 +317,7 @@ a:hover {
     margin: 0;
 }
 
-.navbar .nav {
+.navbar .nav:focus-visible {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
@@ -330,12 +330,12 @@ a:hover {
     font-size: 16px;
 }
 
-.navbar-nav .open .dropdown-menu > li > a {
+.navbar-nav .open .dropdown-menu > li > a:focus {
     text-align: inherit;
 }
 
 .nav > li a:hover,
-.nav > li a{
+.nav > li a:focus{
     background: transparent;
 }
 
@@ -459,7 +459,7 @@ nav .caret {
 
 .btn-d,
 .btn-d:hover,
-.btn-d {
+.btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
@@ -540,7 +540,7 @@ a[data-lightbox] {
     text-align: center;
 }
 
-a[data-lightbox]:hover::before {
+a[data-lightbox]:hover::before:focus {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
@@ -562,6 +562,7 @@ a[data-lightbox]:hover img:focus {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
+    
 }
 
 #lightbox-modal {
@@ -720,7 +721,7 @@ p {
     font-weight: 700;
 }
 
-.social:focus {
+.social {
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -819,11 +820,11 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white {
+.ltc-white:focus {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
+.ltc-white:hover:focus {
     color: #cccccc!important;
 }
 
