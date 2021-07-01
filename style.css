@@ -302,6 +302,47 @@ a:hover:focus {
     font-weight: 600;
     line-height: 44px;
 }
+.nav > li a:hover,
+.nav > li a:focus,
+button:hover,
+button:focus,
+nav a:hover,
+nav a:focus,
+a.btn:hover,
+a.btn:focus,
+li a:focus,
+li a:hover,
+h3 a:hover,
+h3 a:focus,
+img.portfolio-thumb:hover,
+img.portfolio-thumb:focus,
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus
+/* a:hover,
+a:focus  */
+{
+    text-decoration: underline;
+    outline: 0;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.8) !important;
+}          
+a.btn:hover,
+a.btn:focus,
+button:hover,
+button:focus
+{
+    background: #4A1907;
+}
+
+a.social:hover,
+a.social:focus,
+.img-shadow:hover,
+.img-shadow:focus
+ {
+    outline: 0;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.8);
+}
 
 .navbar-brand img{
     max-height: 200px;
@@ -317,7 +358,7 @@ a:hover:focus {
     margin: 0;
 }
 
-.navbar .nav:focus-visible {
+.navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
