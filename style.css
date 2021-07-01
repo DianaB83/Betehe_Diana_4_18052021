@@ -311,15 +311,12 @@ h3 a:focus,
 img.portfolio-thumb:focus,
 input:focus,
 textarea:focus
-.text-center1:focus
 /* a:hover,
 a:focus  */
 {
     outline: solid !important;
 }          
-a.btn:hover,
 a.btn:focus,
-button:hover,
 button:focus
 {
     background: #4A1907;
